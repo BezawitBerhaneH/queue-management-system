@@ -5,21 +5,9 @@ Queue Management System - README
  waiting time, manage appointments efficiently, and enhance service delivery through
  digital queue management.
  Features- Appointment scheduling with priority handling- Patient login and registration- Automatic queue number generation- SMS notifications for queue updates- Role-based access (Admin, Receptionist, Doctor, Patient)- Real-time queue monitoring and patient tracking- Department transfer functionality- Emergency case prioritization- Report generation for management
- Technologies Used- Frontend: HTML, CSS, JavaScript- Backend: PHP- Database: MySQL- Server: Apache (XAMPP)- Tools: Figma (prototyping), PlantUML, draw.io
+ Technologies Used- Frontend: HTML, CSS, JavaScript- Backend: PHP- Database: MySQL- Server: Apache (XAMPP)- Tools: Figma (prototyping)
+ 
  Project Structure
-QMS/
- Queue Management System - README
- ├── css/
- ├── js/
- ├── php/
- ├── includes/
- ├── db/
- │   └── config.php
- ├── dashboard/
- ├── login.php
- ├── register.php
- ├── README.md
- └── index.html
  How to Run the Project Locally
  1. Clone the repository
    git clone https://github.com/yourusername/queue-management-system.git
@@ -42,10 +30,9 @@ Admin        | Manages users, departments, and oversees the system
  Doctor       | Views and manages patient queues, transfers patients
  Patient      | Registers, books appointments, views queue status
  Known Limitations- No multi-language support- Limited to web version (no mobile app)- SMS feature may require third-party integration setup
- License
- This project is licensed under the MIT License.
+
  Author
 Bezawit Berhane
  Queue Management System - README
- Computer Science Intern | Web Developer
+ Web Developer
  Reach out for collaboration or contributions!
